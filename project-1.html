@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 1</title>
-    <meta name="description" content="Case study page of Project" />
 
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Case Study of Project 1</title>
+  <meta name="description" content="Case study page of Project" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
     <div class="header__content">
       <div class="header__logo-container">
         <div class="header__logo-img-cont">
@@ -72,68 +72,67 @@
       </div>
     </div>
   </header>
-    <section class="project-cs-hero">
-      <div class="project-cs-hero__content">
-        <h1 class="heading-primary">AI-based CV Analyzer</h1>
-        <div class="project-cs-hero__info">
-          <p class="text-primary">
-            AI-based applications that help analyze your CV to provide suggestions on improving and assessing readiness to your CV goals.
-          </p>
-        </div>
-        <div class="project-cs-hero__cta">
-          <a href="https://play.google.com/store/apps/details?id=com.b2.hireka_mobile&hl=en_US" class="btn btn--bg" target="_blank">Play Store</a>
-        </div>
+  <section class="project-cs-hero">
+    <div class="project-cs-hero__content">
+      <h1 class="heading-primary">AI-based CV Analyzer</h1>
+      <div class="project-cs-hero__info">
+        <p class="text-primary">
+          AI-based applications that help analyze your CV to provide suggestions on improving and assessing readiness to
+          your CV goals.
+        </p>
       </div>
-    </section>
-    <section class="project-details">
-      <div class="main-container">
+      <div class="project-cs-hero__cta">
+        <a href="https://play.google.com/store/apps/details?id=com.b2.hireka_mobile&hl=en_US" class="btn btn--bg"
+          target="_blank">Play Store</a>
+      </div>
+    </div>
+  </section>
+  <section class="project-details">
+    <div class="main-container">
+      <div class="project-details__content">
         <div class="project-details__content">
-          <div class="project-details__content">
-            <div class="project-details__showcase-img-cont">
-              <!-- <video class="project-details__showcase-img" autoplay muted loop> 
-                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-              </video> -->
-              
-              <img
-                src="./assets/Hireka/mockup-phone3.png"
-                alt="Project Image"
-                class="project-details__showcase-img"
-              />
-              <img
-                src="./assets/Hireka/mockup-phone1.png"
-                alt="Project Image"
-                class="project-details__showcase-img"
-              />
-              <img
-                src="./assets/Hireka/mockup-phone2.png"
-                alt="Project Image"
-                class="project-details__showcase-img"
-              />
-              <img
-                src="./assets/Hireka/mockup-phone4.png"
-                alt="Project Image"
-                class="project-details__showcase-img"
-              />
-            
-            </div>
-          </div>
-          <div class="project-details__content-main">
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                The app focuses on in-depth analysis and evaluation of the user’s CV to improve their professionalism and feasibility in the eyes of the reviewer. The system provides a structured assessment covering experience, skills, to the format aspect, so that users get a clear picture of the quality of their documents. In addition, evaluations can be tailored to specific objectives, such as applying for a job, scholarship, or organization, so that the recommendations provided remain relevant and on target.
-              </p>
-            </div>
-            <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
-              <div class="skills">
-                <div class="skills__skill">Flutter</div>
-                <div class="skills__skill">State Management</div>
-                <div class="skills__skill">OOP</div>
-                <div class="skills__skill">React</div>
+          <div class="carousel">
+            <div class="carousel__track">
+              <div class="carousel__item">
+                <img src="./assets/Hireka/mockup-phone1.png" alt="">
+              </div>
+              <div class="carousel__item">
+                <img src="./assets/Hireka/mockup-phone2.png" alt="">
+              </div>
+              <div class="carousel__item">
+                <img src="./assets/Hireka/mockup-phone3.png" alt="">
+              </div>
+              <div class="carousel__item">
+                <img src="./assets/Hireka/mockup-phone4.png" alt="">
               </div>
             </div>
-            <!-- <div class="project-details__links">
+
+            <button class="carousel__btn carousel__btn--prev">&#10094;</button>
+            <button class="carousel__btn carousel__btn--next">&#10095;</button>
+          </div>
+
+        </div>
+        <div class="project-details__content-main">
+          <div class="project-details__desc">
+            <h3 class="project-details__content-title">Project Overview</h3>
+            <p class="project-details__desc-para">
+              The app focuses on in-depth analysis and evaluation of the user’s CV to improve their professionalism and
+              feasibility in the eyes of the reviewer. The system provides a structured assessment covering experience,
+              skills, to the format aspect, so that users get a clear picture of the quality of their documents. In
+              addition, evaluations can be tailored to specific objectives, such as applying for a job, scholarship, or
+              organization, so that the recommendations provided remain relevant and on target.
+            </p>
+          </div>
+          <div class="project-details__tools-used">
+            <h3 class="project-details__content-title">Tools Used</h3>
+            <div class="skills">
+              <div class="skills__skill">Flutter</div>
+              <div class="skills__skill">State Management</div>
+              <div class="skills__skill">OOP</div>
+              <div class="skills__skill">React</div>
+            </div>
+          </div>
+          <!-- <div class="project-details__links">
               <h3 class="project-details__content-title">See Live</h3>
               <a
                 href="#"
@@ -148,11 +147,11 @@
                 >Code Link</a
               >
             </div> -->
-          </div>
         </div>
       </div>
-    </section>
-    <footer class="main-footer">
+    </div>
+  </section>
+  <footer class="main-footer">
     <div class="main-container">
       <div class="main-footer__upper">
         <div class="main-footer__row main-footer__row-1">
@@ -174,7 +173,8 @@
         <div class="main-footer__row main-footer__row-2">
           <h4 class="heading heading-sm text-lt">Moh. Nizar Nugraha Adi</h4>
           <p class="main-footer__short-desc">
-            An Informatics Engineering undergraduate (5th semester) passionate about system design, networking,and mobile
+            An Informatics Engineering undergraduate (5th semester) passionate about system design, networking,and
+            mobile
             development.
           </p>
         </div>
@@ -187,6 +187,7 @@
       </div>
     </div>
   </footer>
-    <script src="./index.js"></script>
-  </body>
+  <script src="./index.js"></script>
+</body>
+
 </html>

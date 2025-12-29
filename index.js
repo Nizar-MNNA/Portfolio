@@ -36,3 +36,30 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+
+const track = document.querySelector('.carousel__track')
+const items = document.querySelectorAll('.carousel__item')
+const nextBtn = document.querySelector('.carousel__btn--next')
+const prevBtn = document.querySelector('.carousel__btn--prev')
+
+let index = 0
+
+function updateCarousel() {
+  track.style.transform = `translateX(-${index * 100}%)`
+}
+
+nextBtn.addEventListener('click', () => {
+  index = (index + 1) % items.length
+  updateCarousel()
+})
+
+prevBtn.addEventListener('click', () => {
+  index = (index - 1 + items.length) % items.length
+  updateCarousel()
+})
+
+setInterval(() => {
+  index = (index + 1) % items.length
+  updateCarousel()
+}, 4000)

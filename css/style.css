@@ -372,9 +372,6 @@ textarea {
 }
 .projects__row-img-cont {
   overflow: hidden;
-  display: flex;
-  flex-direction: row; 
-  gap: 1.5rem; 
 }
 .projects__row-img {
   width: 100%;
@@ -578,9 +575,6 @@ textarea {
 .project-details__showcase-img-cont {
   width: 100%;
   margin-bottom: 6rem;
-  display: flex;
-  flex-direction: row; /* tumpuk gambar ke bawah */
-  gap: 1.5rem; /* jarak antar gambar */
 }
 .project-details__showcase-img {
   width: 100%;
@@ -637,6 +631,43 @@ textarea {
   .project-details__links-btn:last-child {
     margin: 0;
   }
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+.carousel__track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+.carousel__item {
+  min-width: 100%;
+  flex-shrink: 0;
+}
+.carousel__item img {
+  width: 100%;
+  display: block;
+}
+.carousel__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  z-index: 2;
+}
+.carousel__btn--prev {
+  left: 10px;
+}
+.carousel__btn--next {
+  right: 10px;
 }
 
 .header {
