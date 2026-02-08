@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 2</title>
-    <meta name="description" content="Case study page of Project" />
 
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Case Study of Project 2</title>
+  <meta name="description" content="Case study page of Project" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/x-icon" href="./favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
     <div class="header__content">
       <div class="header__logo-container">
         <div class="header__logo-img-cont">
@@ -72,63 +72,63 @@
       </div>
     </div>
   </header>
-    <section class="project-cs-hero">
-      <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Geospatial Analytics App</h1>
-        <div class="project-cs-hero__info">
-          <p class="text-primary">
-            A geospatial analysis app that visualizes the distribution and adequacy of train stations across Indonesia. 
-            I developed the thematic mapping engine, polygon rendering pipeline, and multithreaded GeoJSON preprocessing 
-            to ensure smooth, accurate, and interactive exploration of regional infrastructure data.
-          </p>
-        </div>
-        <div class="project-cs-hero__cta">
-          <a href="https://github.com/Nizar-MNNA/stasiun-map-app" class="btn btn--bg" target="_blank">Repository</a>
-        </div>
+  <section class="project-cs-hero">
+    <div class="project-cs-hero__content">
+      <h1 class="heading-primary">Geospatial Analytics App</h1>
+      <div class="project-cs-hero__info">
+        <p class="text-primary">
+          A geospatial analysis app that visualizes the distribution and adequacy of train stations across Indonesia.
+          I developed the thematic mapping engine, polygon rendering pipeline, and multithreaded GeoJSON preprocessing
+          to ensure smooth, accurate, and interactive exploration of regional infrastructure data.
+        </p>
       </div>
-    </section>
-    <section class="project-details">
-      <div class="main-container">
+      <div class="project-cs-hero__cta">
+        <a href="https://github.com/Nizar-MNNA/stasiun-map-app" class="btn btn--bg" target="_blank">Repository</a>
+      </div>
+    </div>
+  </section>
+  <section class="project-details">
+    <div class="main-container">
+      <div class="project-details__content">
         <div class="project-details__content">
-          <div class="project-details__content">
-            <div class="project-details__showcase-img-cont">
-              <!-- <video class="project-details__showcase-img" autoplay muted loop> 
+          <div class="project-details__showcase-img-cont">
+            <!-- <video class="project-details__showcase-img" autoplay muted loop> 
                 <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
               </video> -->
-              
-              <img
-                src="./assets/stasiun-map-app/mockup.jpg"
-                alt="Project Image"
-                class="project-details__showcase-img"
-              />
+
+            <img src="./assets/stasiun-map-app/mockup.jpg" alt="Project Image" class="project-details__showcase-img" />
+          </div>
+        </div>
+        <div class="project-details__content-main">
+          <div class="project-details__desc">
+            <h3 class="project-details__content-title">Project Overview</h3>
+            <p class="project-details__desc-para">
+              The application provides an interactive geospatial visualization of train stations across Indonesia
+              and the adequacy of their distribution relative to provincial population data. I built the thematic
+              mapping engine
+              that renders province-level polygons, assigns colors based on population-to-station ratios, and clusters
+              station markers
+              for efficient exploration.
+            </p>
+            <p class="project-details__desc-para">
+              To ensure smooth performance while processing large GeoJSON datasets, I implemented background isolates
+              (multithreading)
+              for polygon parsing and data preprocessing.
+            </p>
+            <p class="project-details__desc-para">
+              This module serves as the analytical core of the system, enabling users to quickly interpret regional
+              disparities,
+              identify underserved areas, and explore detailed station information directly through the map interface.
+            </p>
+          </div>
+          <div class="project-details__tools-used">
+            <h3 class="project-details__content-title">Tools Used</h3>
+            <div class="skills">
+              <div class="skills__skill">Flutter</div>
+              <div class="skills__skill">GIS</div>
             </div>
           </div>
-          <div class="project-details__content-main">
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                The application provides an interactive geospatial visualization of train stations across Indonesia 
-                and the adequacy of their distribution relative to provincial population data. I built the thematic mapping engine 
-                that renders province-level polygons, assigns colors based on population-to-station ratios, and clusters station markers 
-                for efficient exploration.
-              </p>
-              <p class="project-details__desc-para">
-                To ensure smooth performance while processing large GeoJSON datasets, I implemented background isolates (multithreading) 
-                for polygon parsing and data preprocessing.
-              </p>
-              <p class="project-details__desc-para">
-                This module serves as the analytical core of the system, enabling users to quickly interpret regional disparities, 
-                identify underserved areas, and explore detailed station information directly through the map interface.
-              </p>
-            </div>
-            <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
-              <div class="skills">
-                <div class="skills__skill">Flutter</div>
-                <div class="skills__skill">GIS</div>
-              </div>
-            </div>
-            <!-- <div class="project-details__links">
+          <!-- <div class="project-details__links">
               <h3 class="project-details__content-title">See Live</h3>
               <a
                 href="#"
@@ -143,11 +143,11 @@
                 >Code Link</a
               >
             </div> -->
-          </div>
         </div>
       </div>
-    </section>
-    <footer class="main-footer">
+    </div>
+  </section>
+  <footer class="main-footer">
     <div class="main-container">
       <div class="main-footer__upper">
         <div class="main-footer__row main-footer__row-1">
@@ -169,7 +169,8 @@
         <div class="main-footer__row main-footer__row-2">
           <h4 class="heading heading-sm text-lt">Moh. Nizar Nugraha Adi</h4>
           <p class="main-footer__short-desc">
-            An Informatics Engineering undergraduate (5th semester) passionate about system design, networking,and mobile
+            An Informatics Engineering undergraduate (5th semester) passionate about system design, networking,and
+            mobile
             development.
           </p>
         </div>
@@ -182,6 +183,7 @@
       </div>
     </div>
   </footer>
-    <script src="./index.js"></script>
-  </body>
+  <script src="./index.js"></script>
+</body>
+
 </html>
